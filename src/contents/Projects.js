@@ -2,8 +2,22 @@ import React from "react";
 import ecom from "../img/Ecom.PNG";
 import invite from "../img/Invite.PNG";
 
-const ecomlist = ["ReactJS", "Redux Sagas", "Firebase", "ExpressJs", "Nodejs"];
-const invitelist = ["ReactJS", "ContextAPI", "MongoDB", "ExpressJs", "Nodejs"];
+const ecomlist = [
+  "ReactJS",
+  "Redux Sagas",
+  "Firebase",
+  "ExpressJs",
+  "Nodejs",
+  "Heroku",
+];
+const invitelist = [
+  "ReactJS",
+  "ContextAPI",
+  "MongoDB",
+  "ExpressJs",
+  "Nodejs",
+  "Heroku",
+];
 
 const Projects = () => {
   return (
@@ -15,10 +29,10 @@ const Projects = () => {
             <img src={ecom} className="background-image" alt="No pic"></img>
           </div>
           <div className="contentContainer">
-            <h1 className="subtopic">Used</h1>
-            <ul>
+            <h1 className="subtopics">Ecommerce Site</h1>
+            <ul className="listStyle">
               {ecomlist.map((value) => {
-                return <li>{value}</li>;
+                return <li className="listItem">{value}</li>;
               })}
             </ul>
             <a
@@ -35,10 +49,10 @@ const Projects = () => {
             <img src={invite} className="background-image" alt="No pic"></img>
           </div>
           <div className="contentContainer">
-            <h1 className="subtopic">Used</h1>
-            <ul>
+            <h1 className="subtopics">Party Invite Site</h1>
+            <ul className="listStyle">
               {invitelist.map((value) => {
-                return <li>{value}</li>;
+                return <li className="listItem">{value}</li>;
               })}
             </ul>
             <a

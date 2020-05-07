@@ -13,7 +13,7 @@ class About extends Component {
         <p>
           I started my journey as QA Enginner where I explored manual testing
           for all leading Virtual Reality,Augumented Reality and Mixed Reality
-          devices for collabration an platform. Implemented Automation for web
+          devices for a collabration platform. Implemented Automation for web
           dashboard using <b>WebDriverIO</b> and <b>MochaJs</b>. Web development
           is my center of interest, i always love the idea of cross-platform
           development, 1-n one code base deploy into almost any platform, which
